@@ -265,6 +265,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b287f5a2f5309c4b92f80c120e289ff, type: 3}
+--- !u!1 &173130779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 402250132509204181, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &358170787
 GameObject:
   m_ObjectHideFlags: 0
@@ -333,6 +339,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &624503102 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6757984227015745762, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &884066167 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5855615023996497081, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &992163300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7220772368722557671, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1069902874
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +618,24 @@ PrefabInstance:
     m_AddedComponents: []
   m_SourcePrefab: {fileID: -3956505258223990651, guid: 8b5e7b4919417a441903fe19235abfab,
     type: 3}
+--- !u!1 &1180655373 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7563239834598006458, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1705621116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7274578612271500669, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1741836892 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5873933732920159315, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1787983409
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,6 +730,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 55, y: 125, z: 100}
+--- !u!1 &1871073882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7391979135634034892, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1926394545 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7676946393784954474, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2026916490 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 609381317034793956, guid: 4b287f5a2f5309c4b92f80c120e289ff,
+    type: 3}
+  m_PrefabInstance: {fileID: 138459469}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2245268972805340812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1093,7 +1153,52 @@ MonoBehaviour:
   RenderReflectionBounces: 0
   RenderReflectionIntensity: 0
   RenderSkybox: {fileID: 0}
-  NetworkIDs: []
+  NetworkIDs:
+  - gameObject: {fileID: 1926394545}
+    ID: 10
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 992163300}
+    ID: 11
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 1741836892}
+    ID: 12
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 1705621116}
+    ID: 13
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 173130779}
+    ID: 14
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 1180655373}
+    ID: 15
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 2026916490}
+    ID: 16
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 884066167}
+    ID: 17
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 624503102}
+    ID: 18
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 1871073882}
+    ID: 19
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+  - gameObject: {fileID: 3480278762663670689}
+    ID: 20
+    SerializedTypeNames:
+    - VRC.Udon.UdonBehaviour
+    - VRC.Udon.UdonBehaviour
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
   PlayerPersistence: []
